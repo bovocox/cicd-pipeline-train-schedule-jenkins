@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Running build automation'
-                archiveArtifacts artifacts: 'dist/trainSchedule.zip'
+                echo 'Running build automatio'
             }
         }
         stage('DeployToStaging') {
